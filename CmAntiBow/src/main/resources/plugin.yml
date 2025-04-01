@@ -1,0 +1,17 @@
+name: CmAntiBow
+version: 1.4
+main: ru.cmegma.cmantibow.CmAntiBow
+api-version: 1.16
+author: cmegma
+commands:
+  cmantibow:
+    description: Управление плагином
+    permission: cmantibow.reload
+
+permissions:
+  cmantibow.reload:
+    description: Право на перезагрузку конфига
+    default: op
+  cmantibow.bypass:
+    description: Право на использование лука в запрещенных мирах
+    default: op
